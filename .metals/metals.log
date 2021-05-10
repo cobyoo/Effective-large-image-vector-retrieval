@@ -1489,3 +1489,4 @@ Caused by: java.lang.IllegalArgumentException: 95 is not a valid line number, al
 [0m2021.05.10 08:49:48 WARN  unsupported Scala 2.12.6[0m
 [0m2021.05.10 08:50:02 WARN  unsupported Scala 2.12.6[0m
 [0m2021.05.10 08:50:03 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:56:07 WARN  unsupported Scala 2.12.6[0m
