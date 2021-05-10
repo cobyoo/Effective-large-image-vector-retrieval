@@ -18,7 +18,7 @@ object pipe_processing {
         val trajectory_hadoop_file_path = "/wedrive_data/raw_data/TB_TRACKING2_SIMPLE_20200102.sql.gz"
         val point_hadoop_file_path = "/wedrive_data/raw_data/TB_TRACKING2_DATA_20200102.sql.gz"
         val trajectory_pair_RDD = process_trajectory_file(trajectory_hadoop_file_path, sc)
-        val point_RDD = process_point_file(point_hadoop_file_path, sc)
+        // val point_RDD = process_point_file(point_hadoop_file_path, sc)
         // val joined_RDD = trajectory_pair_RDD.join(point_RDD)
         // val mapping_information_RDD = mapping_link_of_jsm(joined_RDD)
         // val completed_RDD = add_link_and_cell(joined_RDD, mapping_information_RDD)
@@ -30,7 +30,7 @@ object pipe_processing {
         println("\n trajectory_pair_RDD \n")
         trajectory_pair_RDD.take(3).foreach(x => println(x)) //RDD의 각 값에 function 적용
         println("\n point_RDD \n")
-        point_RDD.take(3).foreach(x => println(x))
+        // point_RDD.take(3).foreach(x => println(x))
         println("\n joined_RDD \n")
         // joined_RDD.take(3).foreach(x => println(x))
         // println("\n result End \n")
@@ -47,15 +47,15 @@ object pipe_processing {
         // println("\n result End \n")
         stringcut_RDD
     }
-    def process_point_file (point_hadoop_file_path : String, sc : SparkContext) : RDD[(String, Array[String])] = {
-        val point_RDD = sc.textFile(point_hadoop_file_path)
-        val insert_into_RDD = point_RDD.filter(line => line.contains("INSERT INTO"))
-        val values_RDD = insert_into_RDD.map(line => line.split("VALUES ")(1))
-        val items_RDD = values_RDD.map(line => line.split("items"))
-        val unit_trajectory_RDD = values_RDD.flatMap(line => line.split("\\),"))
-        val stringcut_RDD = unit_trajectory_RDD.map(x => cut_string_point(x))
-        stringcut_RDD
-    }
+    // def process_point_file (point_hadoop_file_path : String, sc : SparkContext) : RDD[(String, Array[String])] = {
+    //     val point_RDD = sc.textFile(point_hadoop_file_path)
+    //     val insert_into_RDD = point_RDD.filter(line => line.contains("INSERT INTO"))
+    //     val values_RDD = insert_into_RDD.map(line => line.split("VALUES ")(1))
+    //     val items_RDD = values_RDD.map(line => line.split("items"))
+    //     val unit_trajectory_RDD = values_RDD.flatMap(line => line.split("\\),"))
+    //     val stringcut_RDD = unit_trajectory_RDD.map(x => cut_string_point(x))
+    //     stringcut_RDD
+    // }
     def cut_string_trajectory (values_text : String) : (String, Array[String]) = {
         var cut_text = values_text
         cut_text.take(3).foreach(x => println(x))
@@ -92,7 +92,7 @@ object pipe_processing {
     //     val parse_string_list = value_list.slice(2,value_list.length)
     //     var parse_string = json_string_list.subString(",")
     //     if (cut_text(0) == '['){
-    //         cut_text = cut_text.slice(1, )
+    //         cut_text = cut_text.slice(1,value_list.length)
     //     }
     //     point_pair
     // }

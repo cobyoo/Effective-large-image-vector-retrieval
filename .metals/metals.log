@@ -1323,3 +1323,169 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 [0m2021.05.10 08:30:52 WARN  unsupported Scala 2.12.6[0m
 [0m2021.05.10 08:30:52 WARN  unsupported Scala 2.12.6[0m
 [0m2021.05.10 08:33:33 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:35:53 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:37 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:37 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:37 ERROR code navigation does not work for the file '/home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala' because the Scala version 2.12.6 is not supported. To fix this problem, change the Scala version to 2.12.13 or 2.13.5 or 3.0.0-RC3.[0m
+[0m2021.05.10 08:48:38 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:38 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:39 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:39 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:39 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.05.10 08:48:39 INFO  time: compiled pipe_processing in 0.14s[0m
+[0m2021.05.10 08:48:44 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:44 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:44 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:48 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:50 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:52 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:52 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:52 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:53 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:54 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:54 ERROR code navigation does not work for the file '/home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala' because the Scala version 2.12.6 is not supported. To fix this problem, change the Scala version to 2.12.13 or 2.13.5 or 3.0.0-RC3.[0m
+[0m2021.05.10 08:48:54 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:54 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:48:54 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.05.10 08:48:54 INFO  time: compiled pipe_processing in 56ms[0m
+May 10, 2021 8:48:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 95 is not a valid line number, allowed [0..94]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 95 is not a valid line number, allowed [0..94]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 95 is not a valid line number, allowed [0..94]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.05.10 08:49:04 WARN  unsupported Scala 2.12.6[0m
+May 10, 2021 8:49:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 95 is not a valid line number, allowed [0..94]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 95 is not a valid line number, allowed [0..94]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 95 is not a valid line number, allowed [0..94]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.05.10 08:49:08 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:08 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:08 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:08 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:08 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:08 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:11 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:12 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:13 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:13 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:13 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:13 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:13 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:13 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:13 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:14 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:14 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:14 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:16 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:17 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:19 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:19 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.05.10 08:49:19 INFO  time: compiled pipe_processing in 0.13s[0m
+[0m2021.05.10 08:49:21 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:23 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:23 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:23 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:23 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:24 ERROR code navigation does not work for the file '/home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala' because the Scala version 2.12.6 is not supported. To fix this problem, change the Scala version to 2.12.13 or 2.13.5 or 3.0.0-RC3.[0m
+[0m2021.05.10 08:49:24 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:24 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:24 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:24 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:24 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:25 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.05.10 08:49:25 INFO  time: compiled pipe_processing in 0.12s[0m
+[0m2021.05.10 08:49:26 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:29 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:29 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:30 ERROR code navigation does not work for the file '/home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala' because the Scala version 2.12.6 is not supported. To fix this problem, change the Scala version to 2.12.13 or 2.13.5 or 3.0.0-RC3.[0m
+[0m2021.05.10 08:49:30 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:30 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:30 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.05.10 08:49:30 INFO  time: compiled pipe_processing in 0.12s[0m
+[0m2021.05.10 08:49:33 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:33 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:36 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:36 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:36 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:37 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:38 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:38 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:38 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.05.10 08:49:38 INFO  time: compiled pipe_processing in 0.11s[0m
+[0m2021.05.10 08:49:41 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:43 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:43 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:43 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:44 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:46 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:46 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:46 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:46 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.05.10 08:49:46 INFO  time: compiled pipe_processing in 0.67s[0m
+[0m2021.05.10 08:49:48 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:48 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:48 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:49:48 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:50:02 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.10 08:50:03 WARN  unsupported Scala 2.12.6[0m
