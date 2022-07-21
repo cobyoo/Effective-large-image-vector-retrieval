@@ -1490,3 +1490,1058 @@ Caused by: java.lang.IllegalArgumentException: 95 is not a valid line number, al
 [0m2021.05.10 08:50:02 WARN  unsupported Scala 2.12.6[0m
 [0m2021.05.10 08:50:03 WARN  unsupported Scala 2.12.6[0m
 [0m2021.05.10 08:56:07 WARN  unsupported Scala 2.12.6[0m
+May 10, 2021 10:03:11 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 10, 2021 10:03:11 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.05.11 07:06:24 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.11 07:06:24 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.11 07:06:32 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.11 07:06:47 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.11 07:06:53 WARN  unsupported Scala 2.12.6[0m
+[0m2021.05.11 07:06:54 WARN  unsupported Scala 2.12.6[0m
+May 11, 2021 7:16:41 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 11, 2021 7:17:16 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.05.11 07:17:33 INFO  shutting down Metals[0m
+[0m2021.05.11 07:17:33 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.05.11 07:17:54 INFO  Started: Metals version 0.10.2 in workspace '/home/dblab/ysh/pipe_processing' for client vscode 1.56.0.[0m
+[0m2021.05.11 07:17:54 INFO  time: initialize in 0.36s[0m
+[0m2021.05.11 07:17:54 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher787282981406585303/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.05.11 07:17:54 INFO  skipping build import with status 'Installed'[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher787282981406585303/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher787282981406585303/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.11 07:17:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/dblab/.cache/metals/bsp.trace.json[0m
+[0m2021.05.11 07:17:54 INFO  time: Connected to build server in 0.34s[0m
+[0m2021.05.11 07:17:54 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.05.11 07:17:56 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.05.11 07:17:56 INFO  time: indexed workspace in 1.82s[0m
+[0m2021.05.11 07:18:13 INFO  shutting down Metals[0m
+[0m2021.05.11 07:18:13 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.07.07 10:18:58 INFO  Started: Metals version 0.10.4 in workspace '/home/dblab/ysh/pipe_processing' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.07 10:18:59 INFO  time: initialize in 0.85s[0m
+[0m2021.07.07 10:18:58 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher286469985746919833/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher286469985746919833/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher286469985746919833/bsp.socket...
+[0m2021.07.07 10:18:59 INFO  skipping build import with status 'Installed'[0m
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.07.07 10:18:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/dblab/.cache/metals/bsp.trace.json[0m
+[0m2021.07.07 10:18:59 INFO  time: Connected to build server in 0.27s[0m
+[0m2021.07.07 10:18:59 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.07.07 10:19:01 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.07.07 10:19:01 INFO  time: indexed workspace in 2.15s[0m
+[0m2021.07.07 10:19:07 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:19:08 INFO  compiling pipe_processing (3 scala sources)[0m
+[0m2021.07.07 10:19:08 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:19:08 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.07 10:19:08 INFO  time: compiled pipe_processing in 0.69s[0m
+[0m2021.07.07 10:19:13 WARN  unsupported Scala 2.12.6[0m
+Jul 07, 2021 10:19:37 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 07, 2021 10:19:37 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.07.07 10:19:41 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:19:49 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:19:49 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:21:41 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:21:46 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:21:47 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:21:47 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:22:38 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:22:38 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:22:44 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:22:45 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:22:45 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:22:48 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:22:49 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:22:49 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:22:51 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:22:51 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:22:51 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:22:53 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:22:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:22:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:25:52 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:25:54 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:25:54 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:26:13 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:26:15 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:26:50 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 10:26:50 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.07 20:28:03 INFO  shutting down Metals[0m
+[0m2021.07.07 20:28:03 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.07.08 01:47:23 INFO  Started: Metals version 0.10.4 in workspace '/home/dblab/ysh/pipe_processing' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.08 01:47:24 INFO  time: initialize in 0.89s[0m
+[0m2021.07.08 01:47:23 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher4598679076379714775/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.07.08 01:47:24 WARN  no build target for: /home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher4598679076379714775/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher4598679076379714775/bsp.socket...
+[0m2021.07.08 01:47:24 INFO  skipping build import with status 'Installed'[0m
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.07.08 01:47:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/dblab/.cache/metals/bsp.trace.json[0m
+[0m2021.07.08 01:47:24 INFO  time: Connected to build server in 0.31s[0m
+[0m2021.07.08 01:47:24 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.07.08 01:47:25 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.08 01:47:26 INFO  time: Imported build in 0.12s[0m
+[0m2021.07.08 01:47:28 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.08 01:47:28 INFO  time: code lens generation in 1.42s[0m
+[0m2021.07.08 01:47:30 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.07.08 01:47:30 INFO  time: indexed workspace in 4.59s[0m
+[0m2021.07.08 01:47:30 WARN  unsupported Scala 2.12.6[0m
+Jul 08, 2021 1:53:16 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 08, 2021 1:53:20 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 08, 2021 1:53:21 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.07.08 01:53:23 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 01:53:23 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 02:15:53 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 02:15:53 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 02:18:19 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 02:19:25 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 02:24:37 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 02:25:18 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 02:25:21 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 02:26:17 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 02:26:17 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 02:26:17 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 02:28:30 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 02:51:45 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 02:53:44 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 02:56:09 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 02:56:14 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 02:56:14 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 02:56:19 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 02:56:19 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 03:00:50 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 03:00:50 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 03:03:51 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 03:03:51 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 03:03:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 03:03:59 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 03:05:31 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 03:05:31 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 03:05:33 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 03:05:35 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 03:05:36 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 03:05:36 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 03:05:40 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 03:05:52 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 03:06:51 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 03:06:51 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 03:06:54 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 03:06:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 03:06:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 04:35:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 04:35:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 04:38:38 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 04:40:04 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 04:40:20 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 04:40:38 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 04:40:38 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 04:40:40 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 04:40:40 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 04:40:44 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 04:58:48 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 04:58:48 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 05:00:01 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 05:00:48 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 05:07:15 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 05:07:59 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 05:07:59 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 05:08:28 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 05:08:31 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 05:08:31 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 05:25:15 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 05:27:10 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 05:28:25 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 05:28:27 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 05:28:29 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 05:58:34 INFO  Started: Metals version 0.10.4 in workspace '/home/dblab/ysh/pipe_processing' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.08 05:58:34 INFO  time: initialize in 0.65s[0m
+[0m2021.07.08 05:58:34 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher2177989396970955973/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.07.08 05:58:34 WARN  no build target for: /home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher2177989396970955973/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher2177989396970955973/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.07.08 05:58:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/dblab/.cache/metals/bsp.trace.json[0m
+[0m2021.07.08 05:58:34 INFO  skipping build import with status 'Installed'[0m
+[0m2021.07.08 05:58:35 INFO  time: Connected to build server in 0.33s[0m
+[0m2021.07.08 05:58:35 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.07.08 05:58:36 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.08 05:58:38 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.08 05:58:38 INFO  time: code lens generation in 3.99s[0m
+[0m2021.07.08 05:58:39 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.07.08 05:58:39 INFO  time: indexed workspace in 3.66s[0m
+[0m2021.07.08 05:58:39 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:11:26 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:12:07 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:12:07 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:12:09 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:12:09 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:12:13 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:15:08 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:51:50 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:51:51 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:52:00 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:52:02 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:52:02 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:52:04 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:52:04 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:52:04 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:52:06 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:52:57 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:52:57 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:55:23 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:55:24 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:55:24 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:55:26 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:55:26 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:56:03 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:56:15 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:56:15 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:56:15 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 06:56:26 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 07:13:46 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 08:10:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 08:11:22 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 08:11:22 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 08:11:22 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 08:12:07 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 08:12:10 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 08:21:22 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 08:43:48 INFO  shutting down Metals[0m
+[0m2021.07.08 08:43:48 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+Jul 08, 2021 8:57:08 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.07.08 17:19:42 INFO  shutting down Metals[0m
+[0m2021.07.08 17:19:42 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.07.08 17:19:55 INFO  Started: Metals version 0.10.4 in workspace '/home/dblab/ysh/pipe_processing' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.08 17:19:56 INFO  time: initialize in 0.64s[0m
+[0m2021.07.08 17:19:55 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0m2021.07.08 17:19:56 WARN  no build target for: /home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala[0m
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher6047043390224235521/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher6047043390224235521/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher6047043390224235521/bsp.socket...
+[0m2021.07.08 17:19:56 INFO  skipping build import with status 'Installed'[0m
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.07.08 17:19:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/dblab/.cache/metals/bsp.trace.json[0m
+[0m2021.07.08 17:19:56 INFO  time: Connected to build server in 0.48s[0m
+[0m2021.07.08 17:19:56 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.07.08 17:19:57 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.08 17:20:00 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.08 17:20:00 INFO  time: code lens generation in 4.33s[0m
+[0m2021.07.08 17:20:01 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.07.08 17:20:01 INFO  time: indexed workspace in 3.85s[0m
+[0m2021.07.08 17:20:01 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 17:43:14 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 17:43:14 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 17:43:18 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 17:43:19 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 17:43:21 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:08:40 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:08:48 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:08:48 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:25:42 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:25:42 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:25:44 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:34:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:34:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:34:57 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:34:57 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:34:59 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:34:59 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:35:01 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:35:01 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:35:01 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:35:03 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:35:06 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:35:07 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:35:07 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:35:09 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:35:09 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:35:10 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:35:12 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:35:12 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:35:12 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.08 18:35:15 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.09 02:44:47 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.09 05:24:58 INFO  Started: Metals version 0.10.4 in workspace '/home/dblab/ysh/pipe_processing' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.09 05:24:58 INFO  time: initialize in 0.61s[0m
+[0m2021.07.09 05:24:58 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher6086120880708344207/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.07.09 05:24:58 WARN  no build target for: /home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher6086120880708344207/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher6086120880708344207/bsp.socket...
+[0m2021.07.09 05:24:58 INFO  skipping build import with status 'Installed'[0m
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.07.09 05:24:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/dblab/.cache/metals/bsp.trace.json[0m
+[0m2021.07.09 05:24:59 INFO  time: Connected to build server in 0.44s[0m
+[0m2021.07.09 05:24:59 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.07.09 05:25:00 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.09 05:25:04 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.07.09 05:25:04 INFO  time: indexed workspace in 4.96s[0m
+[0m2021.07.09 05:25:05 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.09 05:25:40 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.09 05:25:40 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.09 05:29:25 INFO  shutting down Metals[0m
+[0m2021.07.09 05:29:25 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.07.09 10:25:07 INFO  shutting down Metals[0m
+[0m2021.07.09 10:25:07 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.07.12 03:06:09 INFO  Started: Metals version 0.10.4 in workspace '/home/dblab/ysh/pipe_processing' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.12 03:06:10 INFO  time: initialize in 0.6s[0m
+[0m2021.07.12 03:06:09 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8034205025647022149/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.07.12 03:06:10 WARN  no build target for: /home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher8034205025647022149/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher8034205025647022149/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.07.12 03:06:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/dblab/.cache/metals/bsp.trace.json[0m
+[0m2021.07.12 03:06:10 INFO  skipping build import with status 'Installed'[0m
+[0m2021.07.12 03:06:10 INFO  time: Connected to build server in 0.44s[0m
+[0m2021.07.12 03:06:10 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.07.12 03:06:11 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.12 03:06:13 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.12 03:06:14 INFO  time: code lens generation in 4.01s[0m
+[0m2021.07.12 03:06:15 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.07.12 03:06:15 INFO  time: indexed workspace in 4.04s[0m
+[0m2021.07.12 03:06:15 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:15 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:06:15 INFO  time: compiled pipe_processing in 0.29s[0m
+[0m2021.07.12 03:06:17 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:23 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:26 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:29 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:38 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:38 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:42 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:42 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:43 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:06:43 INFO  time: compiled pipe_processing in 41ms[0m
+[0m2021.07.12 03:06:46 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:47 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:47 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:48 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:06:48 INFO  time: compiled pipe_processing in 48ms[0m
+[0m2021.07.12 03:06:51 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:51 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:51 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:52 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:06:52 INFO  time: compiled pipe_processing in 58ms[0m
+[0m2021.07.12 03:06:54 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:57 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:57 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:58 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:06:58 INFO  time: compiled pipe_processing in 0.21s[0m
+[0m2021.07.12 03:06:58 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:58 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:58 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:59 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:59 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:59 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:06:59 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:00 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:00 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:00 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:00 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:00 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:01 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:01 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:02 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:07:02 INFO  time: compiled pipe_processing in 0.21s[0m
+[0m2021.07.12 03:07:11 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:07:11 INFO  time: compiled pipe_processing in 0.16s[0m
+[0m2021.07.12 03:07:18 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:07:18 INFO  time: compiled pipe_processing in 0.14s[0m
+[0m2021.07.12 03:07:21 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:22 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:07:22 INFO  time: compiled pipe_processing in 0.15s[0m
+[0m2021.07.12 03:07:27 ERROR code navigation does not work for the file '/home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala' because the Scala version 2.12.6 is not supported. To fix this problem, change the Scala version to 2.12.14 or 2.13.6 or 3.0.0.[0m
+[0m2021.07.12 03:07:27 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:27 ERROR code navigation does not work for the file '/home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala' because the Scala version 2.12.6 is not supported. To fix this problem, change the Scala version to 2.12.14 or 2.13.6 or 3.0.0.[0m
+[0m2021.07.12 03:07:27 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:27 ERROR code navigation does not work for the file '/home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala' because the Scala version 2.12.6 is not supported. To fix this problem, change the Scala version to 2.12.14 or 2.13.6 or 3.0.0.[0m
+[0m2021.07.12 03:07:27 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:27 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:28 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:28 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:28 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:30 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:30 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:31 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:35 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:07:35 INFO  time: compiled pipe_processing in 0.14s[0m
+[0m2021.07.12 03:07:36 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:40 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:41 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:50 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:50 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:50 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:50 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:07:52 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:07:52 INFO  time: compiled pipe_processing in 53ms[0m
+[0m2021.07.12 03:07:55 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:07:55 INFO  time: compiled pipe_processing in 0.14s[0m
+[0m2021.07.12 03:08:03 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:08:03 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:03 INFO  time: compiled pipe_processing in 0.13s[0m
+[0m2021.07.12 03:08:03 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:03 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:04 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:04 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:04 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:06 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:07 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:08:07 INFO  time: compiled pipe_processing in 0.14s[0m
+[0m2021.07.12 03:08:08 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:10 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:08:10 INFO  time: compiled pipe_processing in 0.12s[0m
+[0m2021.07.12 03:08:43 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:43 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:43 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:45 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:08:45 INFO  time: compiled pipe_processing in 30ms[0m
+[0m2021.07.12 03:08:48 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:50 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:50 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:08:50 INFO  time: compiled pipe_processing in 38ms[0m
+[0m2021.07.12 03:08:52 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:54 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:54 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:54 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:55 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:08:55 INFO  time: compiled pipe_processing in 28ms[0m
+[0m2021.07.12 03:08:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:57 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:57 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:57 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:57 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:57 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:58 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:58 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:58 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:08:58 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:00 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:00 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:00 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:04 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:09:04 INFO  time: compiled pipe_processing in 0.23s[0m
+[0m2021.07.12 03:09:04 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:04 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:08 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:09:08 INFO  time: compiled pipe_processing in 0.12s[0m
+[0m2021.07.12 03:09:08 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:11 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:11 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:12 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:09:12 INFO  time: compiled pipe_processing in 30ms[0m
+[0m2021.07.12 03:09:13 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:09:13 INFO  time: compiled pipe_processing in 0.12s[0m
+[0m2021.07.12 03:09:19 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:21 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:21 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:21 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:22 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:22 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:22 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:23 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:23 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:23 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:23 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:24 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:24 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:24 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:24 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:26 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:09:26 INFO  time: compiled pipe_processing in 0.15s[0m
+[0m2021.07.12 03:09:27 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:29 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:09:29 INFO  time: compiled pipe_processing in 0.15s[0m
+[0m2021.07.12 03:09:30 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:32 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:32 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:32 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:32 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:35 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:35 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:35 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:35 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:35 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:37 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:09:37 INFO  time: compiled pipe_processing in 0.14s[0m
+[0m2021.07.12 03:09:39 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:41 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:41 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:41 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:44 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:45 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:45 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:45 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:45 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:47 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:47 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:47 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:48 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:49 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:09:49 INFO  time: compiled pipe_processing in 0.13s[0m
+[0m2021.07.12 03:09:49 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:49 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:49 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:51 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:51 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:51 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:51 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:52 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:52 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:52 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:53 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:53 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:54 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:09:54 INFO  time: compiled pipe_processing in 26ms[0m
+[0m2021.07.12 03:09:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:09:56 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:09:56 INFO  time: compiled pipe_processing in 0.16s[0m
+[0m2021.07.12 03:09:59 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:09:59 INFO  time: compiled pipe_processing in 0.13s[0m
+[0m2021.07.12 03:10:00 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:00 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:01 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:01 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:01 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:01 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:05 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:05 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:05 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:05 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:05 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:08 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:08 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:08 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:08 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:12 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:19 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:19 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:20 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:22 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:22 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:22 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:25 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:27 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:28 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:28 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:30 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:31 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:31 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:37 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:37 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:37 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:37 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:37 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:38 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:43 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:46 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:46 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:46 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:46 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:47 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:49 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:50 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:10:52 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:10:52 INFO  time: compiled pipe_processing in 0.15s[0m
+[0m2021.07.12 03:11:17 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:17 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:22 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:22 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:22 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:22 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:23 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:23 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:26 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:28 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:28 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:28 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:28 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:29 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:29 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:29 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:31 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:31 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:34 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:36 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:36 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:38 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:38 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:41 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:44 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:44 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:44 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:47 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:54 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:58 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:11:58 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:12:00 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:14:43 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:14:46 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:14:46 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:14:46 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:16:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:16:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:16:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:16:57 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:16:57 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:16:57 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:17:03 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:17:05 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:17:05 INFO  time: compiled pipe_processing in 0.13s[0m
+[0m2021.07.12 03:17:07 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:17:07 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:17:07 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:17:07 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:17:09 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:17:09 INFO  time: compiled pipe_processing in 0.24s[0m
+[0m2021.07.12 03:17:12 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 03:17:12 INFO  time: compiled pipe_processing in 0.12s[0m
+[0m2021.07.12 03:17:13 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:17:22 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:17:28 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 03:17:28 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 04:35:38 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 04:35:41 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 04:35:41 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 04:35:43 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 04:35:45 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 04:35:45 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 04:35:45 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 04:35:45 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 04:35:45 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 04:35:45 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 04:35:47 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 04:35:47 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 04:35:47 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 04:35:47 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 04:35:47 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 04:35:47 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 04:38:03 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 04:38:05 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 04:38:05 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:56 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 05:33:57 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 05:33:57 INFO  time: compiled pipe_processing in 0.17s[0m
+[0m2021.07.12 05:33:57 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.12 05:33:57 INFO  time: compiled pipe_processing in 0.11s[0m
+[0m2021.07.12 05:34:00 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 06:35:36 WARN  unsupported Scala 2.12.6[0m
+something's wrong: no file:///home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala in Array[String]RangePosition(file:///home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala, 708, 708, 721)
+[0m2021.07.12 06:35:38 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.12 06:35:38 WARN  unsupported Scala 2.12.6[0m
+Jul 13, 2021 7:41:28 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.07.14 08:22:17 INFO  shutting down Metals[0m
+[0m2021.07.14 08:22:17 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.07.16 01:43:11 INFO  Started: Metals version 0.10.5 in workspace '/home/dblab/ysh/pipe_processing' for client Visual Studio Code 1.58.1.[0m
+[0m2021.07.16 01:43:11 INFO  time: initialize in 0.35s[0m
+[0m2021.07.16 01:43:11 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher6832394803029204128/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.07.16 01:43:11 WARN  no build target for: /home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher6832394803029204128/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher6832394803029204128/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.07.16 01:43:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/dblab/.cache/metals/bsp.trace.json[0m
+[0m2021.07.16 01:43:11 INFO  skipping build import with status 'Installed'[0m
+[0m2021.07.16 01:43:12 INFO  time: Connected to build server in 0.55s[0m
+[0m2021.07.16 01:43:12 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.07.16 01:43:13 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.16 01:43:13 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.16 01:43:15 INFO  time: code lens generation in 3.03s[0m
+[0m2021.07.16 01:43:17 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.07.16 01:43:17 INFO  time: indexed workspace in 4.13s[0m
+[0m2021.07.16 01:43:17 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:43:17 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.16 01:43:17 INFO  time: compiled pipe_processing in 0.53s[0m
+[0m2021.07.16 01:43:22 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:43:22 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:47:33 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:48:14 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:53:57 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:53:58 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:54:00 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:54:23 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:54:23 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:55:12 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:55:13 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:55:23 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:55:28 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.16 01:55:29 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:55:28 INFO  time: compiled pipe_processing in 0.61s[0m
+[0m2021.07.16 01:55:29 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:55:31 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:55:31 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:55:31 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:55:31 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:55:33 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.16 01:55:33 INFO  time: compiled pipe_processing in 0.21s[0m
+[0m2021.07.16 01:55:33 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:55:33 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:55:34 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.16 01:55:34 INFO  time: compiled pipe_processing in 0.4s[0m
+[0m2021.07.16 01:55:45 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:55:48 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.16 01:55:48 INFO  time: compiled pipe_processing in 0.27s[0m
+[0m2021.07.16 01:56:48 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:56:48 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:56:48 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:56:50 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:56:50 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:56:52 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:56:52 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:56:54 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:56:54 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:56:57 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:56:57 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:57:06 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:57:06 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:57:10 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:57:10 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:57:10 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:57:12 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:57:15 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:57:16 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:57:16 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:57:18 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.16 01:57:18 INFO  time: compiled pipe_processing in 79ms[0m
+[0m2021.07.16 01:57:18 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:57:18 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.16 01:57:19 INFO  time: compiled pipe_processing in 0.33s[0m
+[0m2021.07.16 01:57:19 ERROR code navigation does not work for the file '/home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala' because the Scala version 2.12.6 is not supported. To fix this problem, change the Scala version to 2.12.14 or 2.13.6 or 3.0.1.[0m
+[0m2021.07.16 01:57:19 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:57:19 ERROR code navigation does not work for the file '/home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala' because the Scala version 2.12.6 is not supported. To fix this problem, change the Scala version to 2.12.14 or 2.13.6 or 3.0.1.[0m
+[0m2021.07.16 01:57:19 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:57:43 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:57:43 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 01:57:43 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 02:01:36 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 02:01:36 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 02:01:36 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 02:03:06 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 02:03:06 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 02:03:08 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 02:03:10 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 02:03:11 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 02:03:11 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.16 02:03:11 INFO  time: compiled pipe_processing in 0.32s[0m
+[0m2021.07.16 02:03:14 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 02:03:15 INFO  compiling pipe_processing (1 scala source)[0m
+[0m2021.07.16 02:03:15 INFO  time: compiled pipe_processing in 0.3s[0m
+[0m2021.07.16 02:38:40 INFO  shutting down Metals[0m
+[0m2021.07.16 02:38:40 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.07.16 02:45:49 INFO  Started: Metals version 0.10.5 in workspace '/home/dblab/ysh/pipe_processing' for client Visual Studio Code 1.58.1.[0m
+[0m2021.07.16 02:45:49 INFO  time: initialize in 0.39s[0m
+[0m2021.07.16 02:45:49 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher5755788539843386991/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.07.16 02:45:49 WARN  no build target for: /home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher5755788539843386991/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher5755788539843386991/bsp.socket...
+[0m2021.07.16 02:45:49 INFO  skipping build import with status 'Installed'[0m
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.07.16 02:45:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/dblab/.cache/metals/bsp.trace.json[0m
+[0m2021.07.16 02:45:50 INFO  time: Connected to build server in 0.37s[0m
+[0m2021.07.16 02:45:50 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.07.16 02:45:51 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.16 02:45:51 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.16 02:45:53 INFO  time: code lens generation in 3.12s[0m
+[0m2021.07.16 02:45:55 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.07.16 02:45:55 INFO  time: indexed workspace in 4.5s[0m
+[0m2021.07.16 02:45:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 02:57:57 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 02:58:05 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 03:01:13 ERROR code navigation does not work for the file '/home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala' because the Scala version 2.12.6 is not supported. To fix this problem, change the Scala version to 2.12.14 or 2.13.6 or 3.0.1.[0m
+[0m2021.07.16 03:01:13 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 03:01:13 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 03:01:13 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 03:03:27 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 03:03:31 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 03:03:35 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 03:04:00 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 03:04:00 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 03:04:14 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 03:06:21 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 03:06:21 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 03:06:39 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 03:07:14 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 03:07:14 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 03:07:16 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 07:53:37 INFO  shutting down Metals[0m
+[0m2021.07.16 07:53:37 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.07.16 07:58:34 INFO  Started: Metals version 0.10.5 in workspace '/home/dblab/ysh/pipe_processing' for client Visual Studio Code 1.58.1.[0m
+[0m2021.07.16 07:58:35 INFO  time: initialize in 0.4s[0m
+[0m2021.07.16 07:58:34 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3939658738893047711/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.07.16 07:58:35 WARN  no build target for: /home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3939658738893047711/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3939658738893047711/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.07.16 07:58:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/dblab/.cache/metals/bsp.trace.json[0m
+[0m2021.07.16 07:58:35 INFO  skipping build import with status 'Installed'[0m
+[0m2021.07.16 07:58:35 INFO  time: Connected to build server in 0.51s[0m
+[0m2021.07.16 07:58:35 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.07.16 07:58:36 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.16 07:58:38 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.07.16 07:58:38 INFO  time: indexed workspace in 2.35s[0m
+[0m2021.07.16 07:58:39 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.16 13:29:43 INFO  shutting down Metals[0m
+[0m2021.07.16 13:29:43 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.07.19 01:48:24 INFO  Started: Metals version 0.10.5 in workspace '/home/dblab/ysh/pipe_processing' for client Visual Studio Code 1.58.1.[0m
+[0m2021.07.19 01:48:24 INFO  time: initialize in 0.42s[0m
+[0m2021.07.19 01:48:24 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3612194065121864299/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.07.19 01:48:24 WARN  no build target for: /home/dblab/ysh/pipe_processing/src/main/scala/processing/pipe_processing.scala[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3612194065121864299/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3612194065121864299/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.07.19 01:48:24 INFO  skipping build import with status 'Installed'[0m
+[0m2021.07.19 01:48:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/dblab/.cache/metals/bsp.trace.json[0m
+[0m2021.07.19 01:48:25 INFO  time: Connected to build server in 0.31s[0m
+[0m2021.07.19 01:48:25 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.07.19 01:48:26 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.19 01:48:28 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.07.19 01:48:28 INFO  time: indexed workspace in 1.93s[0m
+[0m2021.07.19 01:48:28 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:07:55 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:07:55 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.19 05:08:16 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:10:58 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:00 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:00 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:01 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:21 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:21 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:25 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:27 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:27 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:27 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:27 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:50 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:50 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:50 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:51 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:51 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:51 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:53 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:53 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:53 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:54 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:54 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:11:54 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:12:00 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:12:22 WARN  unsupported Scala 2.12.6[0m
+[0m2021.07.19 05:38:43 INFO  shutting down Metals[0m
+[0m2021.07.19 05:38:43 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.07.22 07:56:46 INFO  Started: Metals version 0.10.5 in workspace '/home/dblab/ysh/mapping' for client Visual Studio Code 1.58.2.[0m
+[0m2021.07.22 07:56:46 INFO  time: initialize in 0.42s[0m
+[0m2021.07.22 07:56:46 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher6767419772726426980/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 0 projects from '/home/dblab/ysh/mapping/.bloop'...
+[0m[32m[D][0m Skipped configuration of SemanticDB in unsupported 2.12.6 projects
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher6767419772726426980/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher6767419772726426980/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.07.22 07:56:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/dblab/.cache/metals/bsp.trace.json[0m
+[0m2021.07.22 07:56:47 INFO  time: Connected to build server in 0.48s[0m
+[0m2021.07.22 07:56:47 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.07.22 07:56:49 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.07.22 07:56:49 INFO  time: indexed workspace in 2.32s[0m
+Jul 22, 2021 7:57:25 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 22, 2021 8:29:21 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.07.22 14:03:47 INFO  shutting down Metals[0m
+[0m2021.07.22 14:03:47 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.07.22 14:03:47 ERROR Unexpected error initializing server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+[0m2021.07.22 17:11:07 INFO  Started: Metals version 0.10.5 in workspace '/home/dblab/ysh/mapping' for client Visual Studio Code 1.58.2.[0m
+[0m2021.07.22 17:11:07 INFO  time: initialize in 0.37s[0m
+[0m2021.07.22 17:11:07 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher2580087626974247877/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher2580087626974247877/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher2580087626974247877/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.07.22 17:11:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/dblab/.cache/metals/bsp.trace.json[0m
+[0m2021.07.22 17:11:07 INFO  time: Connected to build server in 0.22s[0m
+[0m2021.07.22 17:11:07 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.07.22 17:11:10 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.07.22 17:11:10 INFO  time: indexed workspace in 2.34s[0m
+[0m2021.07.22 21:19:22 INFO  shutting down Metals[0m
+[0m2021.07.22 21:19:22 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.07.23 02:22:14 INFO  Started: Metals version 0.10.5 in workspace '/home/dblab/ysh/mapping' for client Visual Studio Code 1.58.2.[0m
+[0m2021.07.23 02:22:14 INFO  time: initialize in 0.35s[0m
+[0m2021.07.23 02:22:14 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher7314453419006438067/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher7314453419006438067/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher7314453419006438067/bsp.socket...
+[0m2021.07.23 02:22:14 INFO  skipping build import with status 'Requested'[0m
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.07.23 02:22:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/dblab/.cache/metals/bsp.trace.json[0m
+[0m2021.07.23 02:22:14 INFO  time: Connected to build server in 0.23s[0m
+[0m2021.07.23 02:22:14 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.07.23 02:22:16 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.07.23 02:22:16 INFO  time: indexed workspace in 1.96s[0m
+[0m2021.07.23 09:05:55 INFO  shutting down Metals[0m
+[0m2021.07.23 09:05:55 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...

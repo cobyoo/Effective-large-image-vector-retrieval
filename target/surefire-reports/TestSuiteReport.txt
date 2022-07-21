@@ -1,7 +1,7 @@
 [36mRun starting. Expected test count is: 1[0m
 [32mJUnitWrapperSuite:[0m
 [32m- testOK[0m
-[36mRun completed in 103 milliseconds.[0m
+[36mRun completed in 115 milliseconds.[0m
 [36mTotal number of tests run: 1[0m
 [36mSuites: completed 1, aborted 0[0m
 [36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m
