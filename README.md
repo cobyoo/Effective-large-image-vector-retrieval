@@ -28,9 +28,9 @@
        - Hadoop : 3.2.2
 
 ## Performance Evaluation
-   ![image](https://user-images.githubusercontent.com/39446946/187834938-a4e5c963-ad44-423c-a4ca-a9cb72e71e30.png)
+   ![image](https://user-images.githubusercontent.com/39446946/187837515-ecb55386-6359-4d4d-b7da-9288068d4197.png)
    
-   ![image](https://user-images.githubusercontent.com/39446946/187834790-16696617-8179-46b5-b757-7c68519da321.png)
+   ![image](https://user-images.githubusercontent.com/39446946/187836575-187e977c-89af-4bc8-a396-9217de2b6d63.png)
 
 
 
