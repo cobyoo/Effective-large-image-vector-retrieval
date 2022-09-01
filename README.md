@@ -29,3 +29,5 @@
 
 ## Performance Evaluation
     Speed comparison according to the number of image feature vectors
+   ![image](https://user-images.githubusercontent.com/39446946/187834199-011d0e49-472b-469e-8608-2ff31fe9c0f3.png)
+
