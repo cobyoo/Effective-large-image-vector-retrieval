@@ -28,6 +28,9 @@
        - Hadoop : 3.2.2
 
 ## Performance Evaluation
-    Speed comparison according to the number of image feature vectors
-   ![image](https://user-images.githubusercontent.com/39446946/187834199-011d0e49-472b-469e-8608-2ff31fe9c0f3.png)
+   ![image](https://user-images.githubusercontent.com/39446946/187834938-a4e5c963-ad44-423c-a4ca-a9cb72e71e30.png)
+   
+   ![image](https://user-images.githubusercontent.com/39446946/187834790-16696617-8179-46b5-b757-7c68519da321.png)
+
+
 
