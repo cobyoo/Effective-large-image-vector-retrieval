@@ -7,7 +7,6 @@
 ## Index
 - [Experiment Environment](#Experiment-Environment)
 - [Performance Evaluation](#Performance-Evaluation)
-- [Dependencies](#Dependencies)
 
 ## Experiment Environment
     Master 1 Unit Node
@@ -32,6 +31,3 @@
    ![image](https://user-images.githubusercontent.com/39446946/187837515-ecb55386-6359-4d4d-b7da-9288068d4197.png)
    
    ![image](https://user-images.githubusercontent.com/39446946/187836575-187e977c-89af-4bc8-a396-9217de2b6d63.png)
-
-## Dependencies
-
