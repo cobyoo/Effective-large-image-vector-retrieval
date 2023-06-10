@@ -63,8 +63,7 @@ object App {
 
     import spark.implicits._
 
-    // 이미지 특징 벡터 데이터
-     // 이미지 특징 벡터 데이터를 CSV 파일에서 로드합니다.
+    // 이미지 특징 벡터 데이터를 CSV 파일에서 로드합니다.
     val rawDataPath = "path/to/your/raw_data.csv"
     val rawDataRDD = spark.sparkContext.textFile(rawDataPath).map { line =>
       val tokens = line.split(',')
@@ -72,7 +71,7 @@ object App {
     }
     val rawData = rawDataRDD.toDF("id", "features")
 
-   // 2단계 검색에서 1단계 이산화된 코드 전의 데이터
+    // 2단계 검색에서 1단계 이산화된 코드 전의 데이터
     val imageFeatures = rawData.as[(Long, Vector)].map {
       case (id, features) =>
         val approxFeatures = approximateFeatures(features)
